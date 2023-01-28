@@ -48,10 +48,12 @@ Line 4: The `if` statement is assuming that items of `users` are JSON object.
 ## Question 3
 
 We received the following requirements for a cloud-based email application we need to develop:
-● The application will receive incoming emails and store them in a database.
-● The application will have multiple users.
-● For each user we need to store the list of emails they have received.
-● A user may organise his emails in a folder hierarchy – each email user must have his/her own folder hierarchy.
+
+- The application will receive incoming emails and store them in a database.
+- The application will have multiple users.
+- For each user we need to store the list of emails they have received.
+- A user may organise his emails in a folder hierarchy – each email user must have his/her own folder hierarchy.
+
 Note that for this exercise we are concerned only with the basic database schema. Use any database system you prefer (MongoDB, SQL or anything you are familiar with) to answer the questions:
 
 ### 1. Provide a database schema for the most important entities. You can do it using any way that is convenient to you: e.g. a diagram that shows the tables with their columns or SQL queries or a popular ORM (e.g. mongoose for MongoDB)

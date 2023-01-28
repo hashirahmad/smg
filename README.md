@@ -1,5 +1,16 @@
 # README
 
+- [README](#readme)
+  - [Question 1](#question-1)
+  - [Question 2](#question-2)
+  - [Question 3](#question-3)
+    - [1. Provide a database schema for the most important entities. You can do it using any way that is convenient to you: e.g. a diagram that shows the tables with their columns or SQL queries or a popular ORM (e.g. mongoose for MongoDB)](#1-provide-a-database-schema-for-the-most-important-entities-you-can-do-it-using-any-way-that-is-convenient-to-you-eg-a-diagram-that-shows-the-tables-with-their-columns-or-sql-queries-or-a-popular-orm-eg-mongoose-for-mongodb)
+    - [2. Provide a query that for a given user and folder name, it returns all the emails in reverse chronological order (most recent should be first)](#2-provide-a-query-that-for-a-given-user-and-folder-name-it-returns-all-the-emails-in-reverse-chronological-order-most-recent-should-be-first)
+      - [Inserting dummy data](#inserting-dummy-data)
+      - [The actual query look like](#the-actual-query-look-like)
+    - [3. Given that the number of emails is ever-increasing, how would you ensure that performance will not deteriorate for active users over time?](#3-given-that-the-number-of-emails-is-ever-increasing-how-would-you-ensure-that-performance-will-not-deteriorate-for-active-users-over-time)
+  - [Question 4](#question-4)
+
 ## Question 1
 
 How would you explain the three different layers (front-end, back-end and database) of a typical web application to a 10-year-old child, using a real-life analogy?
@@ -30,8 +41,8 @@ function users(users) {
 
 No. This code will throw a run time error. The `if` statement closure is not closed or if that is closed then the function `users` closure is not closed.
 
-Line 1: The description is incomplete. It does not make sense.
-Line 3: There needs to be some sanity check that `users` is an `Array` before the `for` loop
+Line 1: The description is incomplete. It does not make sense.\
+Line 3: There needs to be some sanity check that `users` is an `Array` before the `for` loop\
 Line 4: The `if` statement is assuming that items of `users` are JSON object.
 
 ## Question 3
